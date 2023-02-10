@@ -1,0 +1,171 @@
+import os,time
+import sys
+import getpass
+time.sleep(1)
+os.system("clear")
+os.system("xdg-open https://youtube.com/@itechhouse")
+logo=("""        \33[1;33m____  ____        ________  ______  __________ 
+       / __ )/ __ \      / ____/\ \/ / __ )/ ____/ __ \
+          \33[1;36m / __  / / / /_____/ /      \  / __  / __/ / /_/ /
+     \33[1;39m/ /_/ / /_/ /_____/ /___    / / /_/ / /___/ _, _/ 
+    \33[1;36m/_____/_____/      \____/   /_/_____/_____/_/ |_|  
+
+    \033[33m╭──────────────\033[95m╭╮Owner Information╭╮\033[33m───────────────╮
+    │  ❍ DEVELOPER    :    A R MAMUN                   │
+    │  \033[32m❍ FACEBOOK     :    FB.COM/4R.MAMUN             │
+    │ \033[33m ❍ GITHUB       :    GITHUB.COM/BD-CYBER         │
+    │  \033[32m❍ YOUTUBE      :    YOUTUBE.COM/@iTECHHOUSE     │
+    │ \033[33m ❍ VERSION      :    1.0.0                       │
+    │ \x1b[1;91m ❍ NOTE  !! !!  :    USE ONLY FOR EDUCATION    \033[33m  │
+    ╰──────────────────────────────────────────────────╯""")
+attemps = 0
+print(logo)
+print("\n\033[33m ❍  [01] PASSWORD \33[36m[YouTube Video]")
+print("\033[33m ❍  [02] SETUP")
+
+
+setup=input("\n\033[32mChoose : ")
+os.system('clear')
+setup=setup.replace(" ","")
+if setup=="1" or setup=="01":
+	
+	os.system("xdg-open https://youtube.com/@itechhouse")
+	os.system("clear")
+	
+while attemps < 1234567890:
+    password = input('\n\033[35m ENTER PASSWORD : ')
+
+    if  password == 'SUBS4':
+        print('You have successfully logged in.')
+        break
+    else:
+        print('\033[37mIncorrect Password. Please See Full Video For PassWord And Try Again.')
+        os.system("xdg-open https://youtube.com/@itechhouse")
+        attemps += 1
+        continue
+os.system('clear')
+    
+print(logo)
+setup=input("\033[1;37m  \n\n\033[1;31m[\033[1;32m01\033[1;31m] \033[1;35mBESIC PACKEG SETUP\033[1;32m {BEST}\n\n\033[1;31m[\033[1;32m02\033[1;31m] \033[1;35mFULL SETUP\n\n WHAT IS YOUR CHOICE : ")
+setup=setup.replace(" ","")
+if setup=="1" or setup=="01":
+	print("\n\n PLEASE WAIT INSTALLING START...\n\n")
+	time.sleep(3)
+	os.system("pkg update")
+	os.system("pkg upgrade")
+	os.system("pkg install python -y")
+	os.system("pkg install python2 -y")
+	os.system("pkg install python3")
+	os.system("apt install tmux")
+	os.system("pip install requests")
+	os.system("pip2 install requests")
+	os.system("pip install mechanize")
+	os.system("pip2 install mechanize")
+	os.system("pip install bs4")
+	os.system("pip2 install bs4")
+	os.system("pip install rich")
+	os.system("pkg install ruby -y")
+	os.system("gem install lolcat")
+	os.system("pip install php")
+	os.system("pip2 install php")
+	os.system("pip install lolcat")
+	os.system("pip install futures")
+	os.system("pip2 install futures")
+	os.system("pkg install nano")
+	os.system("clear")
+	print("""\033[1;33m SETUP SUCCESSFUL BRO ⏱️""")
+elif setup=="2" or setup=="02":
+	print("PLEASE WAIT SETUP START...")
+	time.sleep(3)
+	os.system("pkg update")
+	os.system("pkg upgrade")
+	os.system("pkg install python")
+	os.system("pkg install python2")
+	os.system("pkg install python3")
+	os.system("pkg install wget")
+	os.system("pkg install python-pip")
+	os.system("pkg install fish")
+	os.system("pkg install ruby")
+	os.system("pkg install help")
+	os.system("pkg install dnsutils  ")
+	os.system("pkg install php")
+	os.system("pkg install perl")
+	os.system("pkg install lua")
+	os.system("pkg install parallel")
+	os.system("pkg install nmap")
+	os.system("pkg install bash")
+	os.system("pkg install clang")
+	os.system("pkg install nano")
+	os.system("pkg install w3m")
+	os.system("pkg install hydra")
+	os.system("pkg install figlet")
+	os.system("pkg install cowsay")
+	os.system("pkg install curl")
+	os.system("pkg install tar")
+	os.system("pkg install zip")
+	os.system("pkg install unzip")
+	os.system("pkg install tor")
+	os.system("pkg install net-tools")
+	os.system("pkg install sudo")
+	os.system("pkg install wireshark")
+	os.system("apt install tmux")
+	os.system("pkg install crunch")
+	os.system("pkg install wgetrc")
+	os.system("pkg install wgetrc")
+	os.system("pkg install wcalc")
+	os.system("pkg install openssl")
+	os.system("pkg install openssl-tool")
+	os.system("pkg install bmon")
+	os.system("pkg install vpn")
+	os.system("pkg install unrar")
+	os.system("pkg install toilet")
+	os.system("pkg install proot")
+	os.system("pkg install net-tools")
+	os.system("pkg install vim")
+	os.system("pkg install vim-python")
+	os.system("pkg install ired")
+	os.system("pkg install goaccess")
+	os.system("pkg install golang")
+	os.system("pkg install kibi")
+	os.system("pkg install tsu")
+	os.system("pkg install mtools")
+	os.system("pkg install file")
+	os.system("pkg install vis")
+	os.system("pkg install pass")
+	os.system("pkg install pick")
+	os.system("pkg install chroot")
+	os.system("pkg install macchanger")
+	os.system("pkg install ninja")
+	os.system("pkg install elixir")
+	os.system("pkg install swift")
+	os.system("pkg install xmlstarlet")
+	os.system("pkg install fakeroot")
+	os.system("pkg install texinfo")
+	os.system("pkg install netcat")
+	os.system("pkg install wren")
+	os.system("pkg install gatling")
+	os.system("pkg install cvs")
+	os.system("pkg install ffmpeg")
+	os.system("pkg install screen")
+	os.system("pkg install neofetch")
+	os.system("pkg install mariadb")
+	os.system("pkg install picolisp")
+	os.system("pkg install cmatrix")
+	os.system("pkg install dropbear")
+	os.system("pkg install openssh")
+	os.system("pkg install python-pip")
+	os.system("pip2 install wget")
+	os.system("pip install bs4")
+	os.system("pip2 install bs4")
+	os.system("pip install requests")
+	os.system("pip2 install requests")
+	os.system("pip install mechanize")
+	os.system("pip2 install mechanize")
+	os.system("pip install php")
+	os.system("pip2 install php")
+	os.system("gem install lolcat")
+	os.system("clear")
+	print("""\033[1;33m SETUP SUCCESSFUL BRO ⏱️""")
+else:
+  print("\n\n\033[1;31mYOU HAVE ENTERED THE WRONG OPTION\n\n\033[1;36mTO RUN AGAIN ")
+  os.system("exit")
