@@ -1,3 +1,4 @@
+##Setup commend
 apt update
 apt upgrade
 pkg install python
